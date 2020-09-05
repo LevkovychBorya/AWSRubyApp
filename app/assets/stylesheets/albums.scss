@@ -1,0 +1,53 @@
+// Place all the styles related to the Albums controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//colors
+$white: white;
+$color_suva_gray_approx: #888888;
+
+.author {
+  text-align: right;
+}
+.thumbnail {
+  &:hover {
+    cursor: pointer;
+    //-webkit-transform: scale(1.03, 1.03);
+    //-ms-transform: scale(2, 2);
+    transform: scale(1.03, 1.03);
+    transition-duration: 0.3s;
+    //-webkit-transition-duration: 0.3s;
+    box-shadow: 0 0 100px $color_suva_gray_approx;
+    z-index: 1;
+  }
+  img {
+    border-radius: 25px;
+    min-width: 200px;
+    max-width: 200px;
+    width: 80%;
+    min-height: 200px;
+    max-height: 200px;
+    height: 100%;
+  }
+}
+
+a:hover {
+  background-color: $white;
+}
+#showAlbum img {
+  border: solid $white 1px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 200px;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+#content img {
+  min-width: 450px;
+  max-width: 650px;
+  width: 80%;
+  min-height: 250px;
+  max-height: 450px;
+  height: 100%;
+}
+

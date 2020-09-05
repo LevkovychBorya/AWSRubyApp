@@ -1,0 +1,74 @@
+articles:
+  - status: 0
+    title: My Summer holidays!
+    body: <p>Summer is a wonderful season for me. It is the hottest and the best season of the year.The weather is always nice and sunny. It’s a real pleasure to spend some days out of a my town. So many people leave towns for countryside, seaside and mountains.</p><p>In summer schoolchildren do not go to school. They have summer holidays which are three months long. Children don’t have to get up early. There is no homework to do or lessons to learn. So they like holidays. I never stay in bed long in a bright summer morning. Sometimes my friends and I go to the cinema or to forest. Sometimes we play football or tennis in the yard.</p><p>Every summer I go to the country to stay with my grandmother for a month or two. I help Granny to work in the kitchen garden or to look after chickens and pigs. In the village I often go for long bike rides with my brother. There is a nice river Prut not far from my Granny’s place. Sometimes we go fishing or boating. I like to sit in silence for a while waiting for a fish to get caught and listening to the birds singing in the forest. I like to go to the beach in the morning when it is not too hot. I swim, sunbathe and play with my friends on the bank of the river.﻿</p>
+
+  - status: 0
+    title: Coldplay "Speed of Sound"
+    body: <p><strong>Speed of Sound</strong> одна з найвідоміших пісень британської рок-групи <strong>Coldplay</strong>, у написанні якої брали участь усі члени групи. Ставши першим синглом з третього студійного альбому <strong>Coldplay X & Y</strong>, вона вийшла навесні 2005 року і відразу ж потрапила в <em>UK Singles Chart</em>, де і залишалася номером 1 в <strong>Top 75</strong> протягом 16 тижнів. Журнал <em>The Village Voice</em> назвав пісню <em>"unusually accomplished, fresh, and emotional"</em>.</p><p>Незважаючи на такий успіх, вокаліст групи <strong>Chris Martin</strong> зізнався, що <strong>"Speed of Sound"</strong> одна з найменш улюблених ним композицій. Група практично ніколи не грає її на концертах, і в своїх численних інтерв'ю <strong>Martin</strong> пояснює, що йому не подобається те, як звучить пісня в запису (Recording).</p>
+
+events:
+  - name: "Reading the best poems by Lord Byron"
+    description: "I had a dream, which was not all a dream.
+                  The bright sun was extinguish’d, and the stars
+                  Did wander darkling in the eternal space,
+                  Rayless, and pathless, and the icy earth"
+    capacity: 15
+    date: 2015-08-01 12:00
+    place: Lviv Franko National University
+    latitude: 49.84061
+    longitude: 24.02251
+
+  - name: "Presentation of a new book"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus aliquam orci sit amet pellentesque placerat.
+                  Quisque suscipit tellus sit amet placerat volutpat.
+                  Suspendisse sit amet libero magna. "
+    capacity: 15
+    date: 2015-09-01 12:00
+    place: Pasternaka St., 5, Lviv
+    latitude: 49.83273
+    longitude: 23.99922
+
+  - name: "Halloween Party"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus aliquam orci sit amet pellentesque placerat.
+                  Quisque suscipit tellus sit amet placerat volutpat.
+                  Suspendisse sit amet libero magna. "
+    capacity: 50
+    date: 2015-11-01 18:00
+    place: Pasternaka St., 5, Lviv
+    latitude: 49.83273
+    longitude: 23.99922
+
+  - name: "Presentation"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus aliquam orci sit amet pellentesque placerat.
+                  Quisque suscipit tellus sit amet placerat volutpat.
+                  Suspendisse sit amet libero magna. "
+    capacity: 15
+    date: 2015-09-01 12:00
+    place: Pasternaka St., 5, Lviv
+    latitude: 49.83273
+    longitude: 23.99922
+
+books:
+    title: "English Grammar"
+    description: "Present, past and future tenses. Conditions"
+    attachment: ""
+
+    title: "Passive voice"
+    description: "All rules of passive voice"
+    attachment: ""
+albums:
+  - title: "Helloween"
+    description: "Halloween is usually celebrated amongst family, friends and, sometimes, co-workers. However, some areas hold large community events. Parties and other events may be planned on October 31 or in the weekends before and after this date. Adults may celebrate by watching horror films, holding costume parties or creating haunted houses or graveyards."
+    user_id: 2
+  - title: "New Year"
+    description: "Funny New Year celebration! The start of New Year's Day, at midnight, is heralded by fireworks, parties and special events, which are often televised. Very few people have to work on the day itself. For many it is a day of recovery from the New Year's Eve celebrations the previous night. In some towns and cities, parades are held and special football games are played. The birth of the first baby in the New Year is often celebrated with gifts to his or her parents and appearances in local newspapers and on local news shows. Many people make New Year's resolutions. These are usually promises to themselves that they will improve something in their own lives. Common New Year's resolutions are to stop smoking or drinking alcohol, to lose weight, exercise more or to live a healthier lifestyle." 
+    user_id: 1
+  - title: "Easter"
+    description: "Easter celebration with our teachers and students! Easter Sunday is not a federal holiday but a number of stores are closed in many parts of the US and if they are open, they may have limited trading hours. In some cities, public transit systems usually run their regular Sunday schedule, but it is best to check with the local transport authorities if any changes will be implemented during Easter Sunday."
+    user_id: 3
+
+

@@ -1,0 +1,34 @@
+/*navbar*/
+
+$darkgreen: #1c4419;
+
+.navgreen {
+  background-color: #487429 !important;
+  .navbar-header{
+    > a {
+    color:white !important;}}
+  .navbar-nav{
+    > li > a {
+        color: #ecf1ec !important;
+        &:hover, &:focus {
+          color: white !important;
+          background-color: $darkgreen !important; }}
+    > .active {
+      > a, > a:hover, >a:focus{
+        color: white !important;
+        background-color: $darkgreen !important;}}
+    > .open {
+      > a, > a:hover, >a:focus{
+        color: white !important;
+        background-color: $darkgreen !important;}}}}
+
+.menu-wrapper{
+  margin-bottom:30px;
+}
+
+.navbar-nav > li > p {
+  color: #ecf1ec;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}

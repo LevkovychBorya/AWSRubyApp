@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: language_school_development
+  
+test:
+  <<: *default
+  database: <%= ENV['RDS_DB_NAME_TEST'] %>
+  username: <%= ENV['RDS_USERNAME_TEST'] %>
+  password: <%= ENV['RDS_PASSWORD_TEST'] %>
+  host: <%= ENV['RDS_HOSTNAME_TEST'] %>
+
+production:
+  <<: *default
+  database: <%= ENV['RDS_DB_NAME'] %>
+  username: <%= ENV['RDS_USERNAME'] %>
+  password: <%= ENV['RDS_PASSWORD'] %>
+  host: <%= ENV['RDS_HOSTNAME'] %>
+  encoding: utf-8
+  port: 5432

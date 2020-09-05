@@ -1,0 +1,40 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$title-green: #487429;
+$body-green: #E6F6DA;
+
+.manager-container {
+	margin-top: 10px;
+	
+	.panel-heading { 
+		background-color: $title-green !important; 
+		color: white !important;
+		span {
+			font-weight: bold;
+		}
+	}
+	.panel-body {
+		background-color: $body-green;
+	}
+	.breadcrumb {
+		background-color: white;
+	}
+	.pages-wrapper a.btn {
+		display: none;
+	}
+	.pages-wrapper a.pageItem:hover, .pages-wrapper a.pageItem{
+		padding-bottom: 10px;
+		background: none;
+	}
+	.wrapper-page-buttons {
+		a.h3 {
+			display:none;
+		}
+		a.btn {
+			padding-right: 12px;
+		}
+		
+
+	}
+}

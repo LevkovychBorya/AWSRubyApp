@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+    %title Language School
+    = stylesheet_link_tag 'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+    = tinymce_assets
+
+  %body
+    = react_component 'Navbar', {isSignedIn: user_signed_in?, notice: (notice if notice.present?), alert: (alert if alert.present?)}, :nav
+    .container.main-container
+      =react_router 'Router', 'HashLocation', {}, {'data-user-id': user_signed_in? ? current_user.id : ""}
+    = react_component 'Footer', {}, :footer
+    = yield

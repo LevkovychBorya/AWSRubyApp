@@ -1,0 +1,89 @@
+// Place all the styles related to the Page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #E3E6E0;
+
+body, html {
+	margin: 0px;
+	height:100%;
+  width:100%;
+}
+
+/*footer*/
+
+.footer{
+  background: #999C99;
+  padding: 20px;
+  width:100%;
+  h3{
+    color: #227228; }
+  a{
+    color: white; }
+  img{
+    position: relative;
+    top: 15px;}
+  .links{
+    padding-left:30px;}}
+
+/*main content*/
+
+.main-container{
+  margin-top:70px;
+  min-height:500px;
+  margin-bottom:30px;
+}
+
+#index-page{
+  margin-bottom:50px;
+  h3{
+    color:#227228;}}
+
+.carousel-inner{
+  height: 500px; 
+  width: 1200px;
+  .item img{
+    min-height: 500px; 
+    width: 1200px;
+}}
+
+#myCarousel{
+  margin-bottom:30px;
+}
+
+#presentation{
+  min-height: 200px;
+  background: #C3D4B7;
+  margin-bottom:30px;
+  border-radius:10px;
+  img{
+    position:relative;
+    bottom:-20px;	
+}}
+
+#static-pages{
+  min-height:200px;
+  background: #E6F6DA;
+  margin-bottom:20px;
+  padding-left: 20px;
+}
+
+#events, #articles, #materials{
+  min-height:500px;
+  background:$gray; 
+}
+
+#events{
+  border-right:15px solid white;
+}
+
+#articles{
+  border-left:15px solid white;
+  padding-left:10px;
+}
+
+
+td, th {
+  padding: 10px 10px;
+}
+

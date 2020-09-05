@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Language School
+    = stylesheet_link_tag 'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+  %body
+    .container-fluid.manager-container
+      .col-xs-12.col-sm-8.col-md-9
+        .panel.panel-default
+          .panel-heading 
+            %span Language school | Administration
+          .panel-body
+            = react_router 'ManagerRouter', 'HashLocation'
+      .col-xs-12.col-sm-4.col-md-3
+        = react_component 'ControlPanel', {}, :div
