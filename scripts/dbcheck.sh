@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -l -c
 if db_version=$(bundle exec rake db:version 2>/dev/null)
 then
     if [ "$db_version" = "Current version: 0" ]; then
