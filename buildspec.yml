@@ -6,9 +6,10 @@ phases:
         - /bin/bash -l -c "gem install bundler -v 1.17.3"
         - /bin/bash -l -c "bundle install"
 
-        - cd terraform && terraform init
-        - cd terraform && terraform apply -var="RDS_USERNAME_TEST=${RDS_USERNAME_TEST}" -var="RDS_PASSWORD_TEST=${RDS_PASSWORD_TEST}" -var="RDS_USERNAME=${RDS_USERNAME}" -var="RDS_PASSWORD=${RDS_PASSWORD}" -var="SECRET_KEY_BASE=${SECRET_KEY_BASE}" -auto-approve
-        - chmod -x terraform/export_var.sh && . ./terraform/export_var.sh
+        - cd terraform
+        - terraform init
+        - terraform apply -var="RDS_USERNAME_TEST=${RDS_USERNAME_TEST}" -var="RDS_PASSWORD_TEST=${RDS_PASSWORD_TEST}" -var="RDS_USERNAME=${RDS_USERNAME}" -var="RDS_PASSWORD=${RDS_PASSWORD}" -var="SECRET_KEY_BASE=${SECRET_KEY_BASE}" -auto-approve
+        - chmod -x export_var.sh && . ./export_var.sh
 
   pre_build:
     commands:
