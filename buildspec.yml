@@ -13,6 +13,7 @@ phases:
 
   pre_build:
     commands:
+        - cd ..
         - /bin/bash -l -c "bundle exec rake db:drop RAILS_ENV=test"
         - /bin/bash -l -c "bundle exec rake db:create RAILS_ENV=test"
         - /bin/bash -l -c "bundle exec rake db:migrate RAILS_ENV=test"
