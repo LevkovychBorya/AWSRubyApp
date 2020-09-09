@@ -19,4 +19,4 @@ phases:
         - /bin/bash -l -c "bundle exec rake db:migrate RAILS_ENV=test"
   build:
     commands:
-        - /bin/bash -l -c "bundle exec rspec --exclude-pattern '//*pictures*'"
+        - /bin/bash -l -c "bundle exec rspec --exclude-pattern '**/**/*pictures*'"
